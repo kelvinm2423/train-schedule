@@ -9,12 +9,14 @@
 <body>
 
 <div class="table">
-<table class="table">
+<table id="addTrainBtn" class="table">
 	<tr>
 		<th>Train Name</th>
 		<th>Train Location</th>
-		<th>Train Time</th>
+		<th>Train Span</th>
+		<th>Time till Arrival</th>
 	</tr>
+		<td>test</td>
 		<td>test</td>
 		<td>test</td>
 		<td>test</td>
@@ -22,23 +24,23 @@
 </div>
 
 <form>
-							<label>Train Name</label>
-							<br>
-							<input type="text" name="trName">
-							<br>
-							<label>Destination</label>
-							<br>
-							<input type="text" name="trDest">
-							<br>
-							<label>Train Time (HH:mm - military time)</label>
-							<br>
-							<input type="time" name="trTime">
-							<br>
-							<label>Frequency (min)</label>
-							<br>
-							<input type="time" name="trFrequency">
-							<button>Submit</button>
-							</form>
+		<label>Train Name</label>
+		<br>
+		<input type="text" id="nameButton" name="trName">
+		<br>
+		<label>Destination</label>
+		<br>
+		<input type="text" id="locationButton" name="trDest">
+		<br>
+		<label>Train Time (HH:mm - military time)</label>
+		<br>
+		<input type="time" id="timeButton" name="trTime">
+		<br>
+		<label>Frequency (min)</label>
+		<br>
+		<input type="time" id="spanButton" name="trFrequency">
+		<button>Submit</button>
+		</form>
 
 
 <script
